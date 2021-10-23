@@ -1,1 +1,5 @@
-// Code your solution in this file!
+const Hq = 42
+
+function distanceFromHqInBlocks(){
+    console.log(43-42)
+}
