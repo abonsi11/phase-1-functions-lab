@@ -16,11 +16,12 @@ function distanceFromHqInFeet(streetNumber){
     }
     return distance * 264
 }
-function distanceTravelledInFeet(streetNumber){
-    console.log(streetNumber1 - streetnumber2)
+function distanceTravelledInFeet(streetNumber1, streetNumber2){
+    console.log(streetNumber1 - streetNumber2)
     let distance = streetNumber1 - streetNumber2
     if(distance < 0){
         distance = distance * -1
     }
     return distance * 264
 }
+function calculatesFarePrice()
