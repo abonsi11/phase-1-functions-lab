@@ -24,4 +24,10 @@ function distanceTravelledInFeet(streetNumber1, streetNumber2){
     }
     return distance * 264
 }
-function calculatesFarePrice()
+function calculatesFarePrice(streetNumber1, streetNumber2){
+    console.log(streetNumber1 - streetNumber2)
+        let distance = streetNumber1 - streetNumber2
+        if(distance < 0){
+            distance = distance * -1
+        }
+}
